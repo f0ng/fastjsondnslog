@@ -1,5 +1,6 @@
 # fastjsondnslog
 Burp 插件
+
 用dnslog来进行探测，使用到的payload为：{"@type":"java.net.Inet4Address","val":"x.dnslog.cn"}   (全版本支持 fastjson <= 1.2.72)
 
 ![Image text](https://github.com/f0ng/fastjsondnslog/blob/master/1.png)
